@@ -54,3 +54,4 @@ $THEME->haseditswitch = true;
 $THEME->scss = function($theme) {                                                                                                   
     return theme_boostchild_get_main_scss_content($theme);                                                                               
 };
+
