@@ -55,3 +55,6 @@ $THEME->scss = function($theme) {
     return theme_boostchild_get_main_scss_content($theme);                                                                               
 };
 
+$THEME->rendererfactory = 'theme_overridden_renderer_factory';
+
+$THEME->sheets = Array('overridecss');
